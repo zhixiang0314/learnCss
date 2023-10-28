@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS学习</title>
+    <!--写法-->
+    <style>
+        .first {
+           color: aqua;/*改变字体颜色*/
+   
+        }
+
+
+        p {
+            color:darkgreen;
+        }
+
+        #id-test{
+            color:fuchsia;
+        }
+        *{
+            margin:0;
+        }
+
+
+
+      /* @import需要写在style标签里 */
+        @import url("./style.css");
+
+        </style>
+        <!-- <link rel="stylesheet"  href="style.css"> -->
+         <!--link指令等价于import引入-->
+</head>
+
+<body>
+    <!--class选择器-->
+    <div class="first">类选择器</div>
+    <div class="second">外部样式</div>
+    <!--标签选择器-->
+    <p>666999</p>
+    <!--id选择器-->
+    <div id="id-test">id选择器</div>
+
+</body>
+</html>
